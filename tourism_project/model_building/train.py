@@ -9,7 +9,7 @@ import os
 def train_model():
     # Load train and test splits created by prep.py
     X_train = pd.read_csv("tourism_project/data/tourism.csv")
-    X_test = pd.read_csv("Xtest.csv")
+    X_test = pd.read_csv("pd.read_csv")
     y_train = pd.read_csv("ytrain.csv").squeeze("columns")
     y_test = pd.read_csv("ytest.csv").squeeze("columns")
     
